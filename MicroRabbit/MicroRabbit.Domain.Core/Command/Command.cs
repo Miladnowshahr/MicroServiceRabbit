@@ -8,7 +8,7 @@ namespace MicroRabbit.Domain.Core.Command
     public abstract class Command:Message
     {
 
-        public DateTime Timestap { get; protected set; };
+        public DateTime Timestap { get; protected set; }
 
         protected Command()
         {

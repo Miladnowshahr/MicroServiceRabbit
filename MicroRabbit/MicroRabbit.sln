@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{6BA4496D-14E2-4A07-B5D2-2B6AD74BC3BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{A237D9DF-0F36-445D-A9B2-E3F0BC55795C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{A237D9DF-0F36-445D-A9B2-E3F0BC55795C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{F76ADEE6-9674-4F14-89F0-A1EB1C235CBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{A237D9DF-0F36-445D-A9B2-E3F0BC55795C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A237D9DF-0F36-445D-A9B2-E3F0BC55795C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A237D9DF-0F36-445D-A9B2-E3F0BC55795C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76ADEE6-9674-4F14-89F0-A1EB1C235CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76ADEE6-9674-4F14-89F0-A1EB1C235CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76ADEE6-9674-4F14-89F0-A1EB1C235CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76ADEE6-9674-4F14-89F0-A1EB1C235CBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6BA4496D-14E2-4A07-B5D2-2B6AD74BC3BE} = {0596C751-D7EB-4EA5-95E8-72D1AD256BBE}
 		{A237D9DF-0F36-445D-A9B2-E3F0BC55795C} = {529EB3F5-A635-4EBD-A757-E702C4FD3870}
+		{F76ADEE6-9674-4F14-89F0-A1EB1C235CBD} = {0DFED8D2-08F2-4AC1-9218-08A6186093FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E191B243-167F-4874-99E3-ADEBBAB9F5BF}
