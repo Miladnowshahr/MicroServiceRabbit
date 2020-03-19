@@ -46,7 +46,7 @@ namespace MicroRabbit.Infra.Bus
                 var message = JsonConvert.SerializeObject(@event);
                 var body = Encoding.UTF8.GetBytes(message);
 
-                channel.BasicPublish("",eventName,body);
+                channel.BasicPublish("",eventName,null,body);
                 
             }
         }
